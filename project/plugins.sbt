@@ -1,7 +1,7 @@
 logLevel := Level.Info
 
 // For finding dependency issues
-addSbtPlugin("net.virtual-void" % "sbt-dependency-graph" % "0.9.0")
+addSbtPlugin("net.virtual-void" % "sbt-dependency-graph" % "0.9.2")
 
 // For publishing JARs, used by trucking-topology
 addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "0.14.6")
