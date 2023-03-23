@@ -54,7 +54,7 @@ object Dependencies {
     .exclude("commons-collections", "commons-collections") // vs itself - commons-beanutils/commons-beanutils-core
     .exclude("org.springframework", "spring-aop") // vs itself - aopalliance/intercept/ConstructorInvocation.class
   //  .exclude("org.apache.hadoop", "hadoop-auth") // vs storm-core/scheme-registry, but only when storm-core is not marked as provided
-  lazy val javaxXml = "javax.xml.bind" % "jaxb-api" % "2.3.0"
+  lazy val javaxXml = "javax.xml.bind" % "jaxb-api" % "2.3.1"
 
 
   // Web application backend dependencies
