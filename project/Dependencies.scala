@@ -60,7 +60,7 @@ object Dependencies {
   // Web application backend dependencies
   lazy val ngVersion = "2.4.3"
   lazy val scalaJsScripts = "com.vmunier" %% "scalajs-scripts" % "1.0.0"
-  lazy val compass = "org.webjars.bower" % "compass-mixins" % "0.12.10"
+  lazy val compass = "org.webjars.bower" % "compass-mixins" % "0.12.12"
   lazy val bootstrap = "org.webjars.bower" % "bootstrap-sass" % "3.3.6"
   lazy val angular2Deps = Seq(
     "org.webjars.npm" % "angular__common" % ngVersion,
