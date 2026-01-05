@@ -9,3 +9,6 @@ dist
 # IntelliJ IDEA
 /.idea
 *.iml
+# macOS system files
+.DS_Store
+._*
